@@ -5,7 +5,7 @@ let numbers = [];
 for (i = 0; i <= 100; i++){
     numbers.push(i);
 }
-console.log(numbers);
+//console.log(numbers);
 
 // loop that returns even numbers
 
@@ -15,7 +15,7 @@ for (i = 0; i <= 100; i++){
         evenNumbers.push(i);
     }
 }
-console.log(evenNumbers);
+//console.log(evenNumbers);
 
 //loop that returns odd numbers 
 
@@ -25,4 +25,15 @@ for (i = 0; i <= 100; i++){
         oddNumbers.push(i);
     }
 }
-console.log(oddNumbers);
+// console.log(oddNumbers);
+
+//loop that returns numbers that have even squares (square roots)
+
+let squareNumbers = [];
+
+for (i = 0; i <= 100; i++){
+    if (i % Math.sqrt(i) == 0){ //the modulus of number and its square root is an even number, return the number
+        squareNumbers.push(i);
+    }
+}
+console.log(squareNumbers);
