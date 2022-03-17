@@ -16,3 +16,13 @@ for (i = 0; i <= 100; i++){
     }
 }
 console.log(evenNumbers);
+
+//loop that returns odd numbers 
+
+let oddNumbers = [];
+for (i = 0; i <= 100; i++){
+    if (i % 2 == 1){
+        oddNumbers.push(i);
+    }
+}
+console.log(oddNumbers);
